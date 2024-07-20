@@ -1,0 +1,246 @@
+.receive_click_div_helper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+}
+
+.articelTab {
+    font-size: .8rem;
+    font-weight: bolder;
+    padding: 18px;
+    display: inline-block;
+    width: 50%;
+    border-radius: 15px;
+    color: bisque;
+    margin-top: 1rem;
+}
+
+.tabBar span:hover {
+    cursor: pointer;
+}
+
+.selectedTab {
+    background-color: rgb(188, 0, 0);
+
+}
+
+.sumwindow {
+    padding-bottom: 139px;
+
+    background-color: black;
+    width: 500px; 
+    position: fixed;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    z-index: 981;
+    opacity: 1;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.39);
+    border: solid 0px rgba(12, 12, 12, 0.726);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    left: calc(50% - 300px); /* Center horizontally */
+    margin-top: 1.25%;
+    height: calc(95%); /* 95% of viewport height */
+    overflow: auto;
+}
+
+.sumwindow::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sumwindow::-webkit-scrollbar-thumb {
+    background-color: #fd0404c7;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.sumwindow::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* #NOTE_case BAD overflow if many comments , tryit */
+    /* max-height: 900px; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sum_p {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.7;
+    padding-top: 5%;
+}
+
+.Full-Article-button {
+    position: absolute;
+    left: 44%;
+    bottom:0;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgba(245, 245, 245);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+.back-articleModal-btn{
+display: none;
+}
+.sumwindow img {
+ /* #NOTE_CASE avoid center image ,avoid small and big images */
+    max-height: 40vh;
+    /* margin-left: 15%; */
+    width: 100%;
+    height: auto;
+    /* margin-top: 10%; */
+    height: auto;
+    /* #Note_Case tryit if all articles id is 4 , bad small image in related section */
+    object-fit: contain;
+        opacity: 0.7;
+    /* border-radius: 20px;*/
+}
+
+.Full-Article {
+    width: 2rem;
+    height: 2rem;
+    color: rgb(190, 4, 4);
+}
+
+.Full-Article:hover {
+    color: rgb(253, 252, 252);
+}
+
+.Full-Article-button:hover {
+    background-color: rgba(255, 0, 0);
+}
+
+.summary{
+    display: flex;
+    font-size:15px ;
+    place-content: center;
+    color:burlywood;
+    font-weight: 700;
+}
+
+.category{
+
+
+    position:absolute;
+    top:20px;
+    left:10px;
+    z-index: 153;
+    background-color: #b33434;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: .8rem;
+}
+
+.date{
+    position: absolute;
+    top:20px;
+    right:10px;
+    color:#eaeaea;
+    z-index: 153;
+    background-color: #b33434;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: .8rem;
+}
+
+
+
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+
+    .articelTab {
+        font-size: .7rem;
+        padding: 10px;
+        border-radius: 10px;
+        color: bisque;
+        
+    }
+    .summary{
+        font-size:12px ;
+
+    }
+    
+
+
+    .sum_p {
+        font-size: 12.5px;
+        line-height: 1;
+        padding-top: 2%;
+    }
+    .back-articleModal-btn{
+        display: block;
+        width: 30%;
+        background-color: #e91e1e;
+        margin-left: 36%;
+        font-size: 1.3rem;
+        padding: 5px;
+        text-align: center;
+        border-radius: 19%;
+        }
+    
+    .sumwindow {
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0%;
+        height: 100%;
+        max-width: 100%;
+        padding: 20px;
+        border-radius: 0;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0%;
+        height: 100%;
+        max-width: 100%;
+        padding: 20px;
+        border-radius: 0;
+        margin-top: 0;
+    }
+
+    .sumwindow img {
+        max-height: 100%;
+        width: 100%;
+        height: 90%;
+        /* margin-top: 18%; */
+        object-fit: contain;
+        opacity: 0.7;
+        border-radius: 20px;
+        /* margin-left: 0%;*/
+
+    }
+
+    .content {
+        padding: 2px;
+    }
+
+    .Full-Article-button {
+        width: 30px;
+        height: 30px;
+    }
+    .category,.date{
+
+        font-size: .5rem;
+    }
+
+}

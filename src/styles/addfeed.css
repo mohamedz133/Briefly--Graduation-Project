@@ -1,0 +1,172 @@
+/* addfeed.css */
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.RSS-search-wrapper {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  padding-right: 12px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 480px;
+  color: black;
+  box-shadow: 10px 10px 0 rgba(255, 255, 255, 0.541);
+  overflow: hidden;
+  margin-left: 10% !important;
+}
+.RSS-search-wrapper p {
+  font-size: .8rem;
+  left: 32%;
+  font-weight: 700;
+  color: red;  
+}
+
+.addFeed {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sub_btn {
+  background-color: #ca0101;
+  color: rgb(0, 0, 0);
+  box-shadow: 3px 3px 0px rgb(165, 165, 165);
+  width: 90px;
+  height:50px;
+  border-radius: 8px;
+  position: fixed;
+  padding: 7px;
+  font-weight: 700;
+  top: 109%;
+  left: 80%;
+  cursor: pointer;
+  
+}
+
+.sub_btn:hover{
+  background-color: #ff0000;
+  color: rgba(255, 255, 255, 0.829);
+  box-shadow: 3px 3px 0px white;
+}
+
+
+.search-input {
+  color: rgb(0, 0, 0);
+  border-radius: 27px;
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.RSS-search-wrapper-p-div {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  font-size: 1.8rem;
+  font-weight: 700;  
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .RSS-search-wrapper {
+    height: 40px;
+    max-width: 80%; /* Adjust width for mobile */
+    margin-left: 10% !important; /* Adjust margin for mobile */
+  }
+
+  .RSS-search-wrapper-p-div {
+    position: absolute;
+    top: 20%;
+    font-size: 1.3rem;
+    left: 25%;
+    width: 60%;
+    font-weight: 700;  
+  }
+  .rss_info{
+    width: 70%;
+    padding-left: .6rem;
+    border-left: beige solid 2.5px;
+    font-size: .8rem;
+    bottom: 3vh;
+    left: 20%;
+} 
+  
+  .addFeed {
+    flex-direction: column; /* Stack items vertically on mobile */
+    width: 90%; /* Adjust width for mobile */
+    gap: 20px; /* Reduce gap for mobile */
+    top: 55%; /* Adjust top position */
+    transform: translate(-50%, -50%);
+  }
+
+  .search-input {
+    width:100%;
+    padding: 8px; /* Adjust padding for mobile */
+    font-size: 14px; /* Adjust font size for mobile */
+    margin-top: 10px; /* Remove margin for mobile */
+  }
+
+  .sub_btn {
+    top: 90%; /* Adjust position for mobile */
+    left: 50%; /* Center button on mobile */
+    transform: translateX(-50%); /* Center button horizontally */
+  }
+
+  .sub_btn {
+    background-color: rgb(214, 2, 2);
+    padding: 5px; 
+    font-size: 14px; 
+    color:white
+  }
+  
+  .sub_btn {
+    padding: 5px;
+    font-size: 0.8rem;
+    left: 50%;
+    margin-top: 15%;
+    transform: translateX(-50%);
+    
+  }
+
+}
+
+/* @media (max-width: 480px) {
+  .RSS-search-wrapper {
+    height: 30px;
+    margin-left: 10%;
+    width: 90%;
+  }
+
+  .search-input {
+    padding: 6px; 
+    font-size: 12px; 
+  }
+
+  .sub_btn {
+    background-color: rgb(214, 2, 2);
+    padding: 5px; 
+    font-size: 14px; 
+    color:white
+  }
+
+} */

@@ -1,0 +1,33 @@
+.pagenation_parent {
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+  display: flex;
+  gap: 20px;
+  position: fixed;
+  top: 29px;
+  z-index: 20;
+  left: 34%;
+}
+
+.pagenation_parent_pg_no {
+  padding: 10px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .pagenation_parent {
+    font-size: .6rem;
+      padding-left: 0;
+      left: 50%; 
+      transform: translateX(-50%);
+  }
+
+  .pagenation_parent_dec,
+  .pagenation_parent_inc {
+      font-size: .4rem;
+  }
+}

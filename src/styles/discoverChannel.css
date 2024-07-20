@@ -1,0 +1,12 @@
+.discover_channels_class {
+    margin-top: 20vh;
+  }
+
+  @media (max-width: 768px) {
+
+  
+    .discover_channels_class {
+      margin-top: 50%;
+      margin-bottom: 10px;
+    }
+  }  

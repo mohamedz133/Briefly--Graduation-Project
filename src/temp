@@ -1,0 +1,137 @@
+- on hover -> poinnter
+- on click change state
+- remove subscribe btn
+
+- onclick show article componet text modal
+
+  - articles object
+  {
+    "totalArticles": 96790,
+    "articles": [
+        {
+            "title": "Modi's BJP alliance set to win parliamentary majority",
+            "description": "India's Prime Minister Narendra Modi looks set for a rare third consecutive term in power, as local exit polls on Saturday suggest his Bharatiya Janata Party will clinch a parliamentary majority.",
+            "content": "India's Prime Minister Narendra Modi looks set for a rare third consecutive term in power, as local exit polls on Saturday suggested his Bharatiya Janata Party-led alliance will clinch a parliamentary majority.\nAccording to an exit poll summary by lo... [1623 chars]",
+            "url": "https://www.cnbc.com/2024/06/01/india-election-modis-bjp-alliance-set-to-win-parliamentary-majority.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/107000504-1642058189513-gettyimages-1230740160-AFP_8ZD8HH.jpeg?v=1717157973&w=1920&h=1080",
+            "publishedAt": "2024-06-01T13:32:05Z",
+            "source": {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com"
+            }
+        },
+        {
+            "title": "Robert Pickton: Canadian serial killer dies aged 74 after prison assault",
+            "description": "Infamous Canadian serial killer Robert Pickton has died following a prison assault, according to government agency Correctional Service Canada (CSC).",
+            "content": "CNN —\nCanadian serial killer Robert Pickton - who was convicted of killing six women and confessed to killing dozens more - died after being attacked earlier this month by another inmate, prison authorities said.\nPickton is one of the most notorious ... [2267 chars]",
+            "url": "https://www.cnn.com/2024/06/01/americas/serial-killer-robert-pickton-dies-intl/index.html",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap888850104661.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2024-06-01T12:51:00Z",
+            "source": {
+                "name": "CNN",
+                "url": "https://www.cnn.com"
+            }
+        },
+        {
+            "title": "Daughter of Angelina Jolie and Brad Pitt files court petition for name change",
+            "description": "Shiloh Nouvel Jolie-Pitt submitted a petition in Los Angeles County Superior Court on May 27",
+            "content": "(AP) – A daughter of actors Angelina Jolie and Brad Pitt filed paperwork to legally remove “Pitt” from her name on the day she turned 18.\nShiloh Nouvel Jolie-Pitt submitted a petition in Los Angeles County Superior Court on May 27 to change her name ... [1390 chars]",
+            "url": "https://fox8.com/news/daughter-of-angelina-jolie-and-brad-pitt-files-court-petition-for-name-change/",
+            "image": "https://fox8.com/wp-content/uploads/sites/12/2024/06/AP24153341084496.jpg?w=1280",
+            "publishedAt": "2024-06-01T12:30:38Z",
+            "source": {
+                "name": "WJW FOX 8 News Cleveland",
+                "url": "https://fox8.com"
+            }
+        },
+        {
+            "title": "Yotta CEO says 85,000 bank accounts locked",
+            "description": "The ongoing Synapse bankruptcy mess has exposed the risks in a corner of fintech that grew in prominence during a boom in venture investment.",
+            "content": "Oscar Wong | Moment | Getty Images\nWhen Adam Moelis co-founded a fintech startup named Yotta in 2019, he wanted to give Americans a new way to save money to help them cushion the ups and downs of life. Instead, his company has inadvertently been a so... [3629 chars]",
+            "url": "https://www.cnbc.com/2024/06/01/synapse-bankruptcy-yotta-accounts-locked.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/107422893-1717184417711-gettyimages-1437761046-dsc04600.jpeg?v=1717184480&w=1920&h=1080",
+            "publishedAt": "2024-06-01T12:00:01Z",
+            "source": {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com"
+            }
+        },
+        {
+            "title": "Ticketmaster hit by data hack that may affect 560m customers",
+            "description": "Cybercrime group ShinyHunters reportedly demanding £400,000 ransom to prevent data being sold",
+            "content": "Ticketmaster has been targeted in a cyber-attack, with hackers allegedly offering to sell customer data on the dark web, its parent company, Live Nation, has confirmed.\nThe ShinyHunters hacking group is reportedly demanding about £400,000 in a ransom... [2342 chars]",
+            "url": "https://www.theguardian.com/technology/article/2024/jun/01/live-nation-investigating-data-breach-of-its-us-ticketmaster-unit",
+            "image": "https://i.guim.co.uk/img/media/b02f6c7bc6eb146a506d0fe27fe5f7dd509ad919/0_233_6000_3600/master/6000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fe0c814299ee80bb70e8d689e89aec16",
+            "publishedAt": "2024-06-01T11:45:00Z",
+            "source": {
+                "name": "The Guardian",
+                "url": "https://www.theguardian.com"
+            }
+        },
+        {
+            "title": "Buffalo Bills pinning their hopes on Olympic gold medal wrestler",
+            "description": "The Buffalo Bills have signed Olympic gold medal-winning wrestler Gable Steveson to a contract, the team announced Friday.",
+            "content": "CNN —\nThe Buffalo Bills have signed Olympic gold medal-winning wrestler Gable Steveson to a contract, the team announced Friday.\nThe Bills listed Steveson, a gold medalist in the 125kg weight class at the Tokyo Olympics, as a defensive tackle.\n“I hav... [1679 chars]",
+            "url": "https://www.cnn.com/2024/06/01/sport/gable-steveson-buffalo-bills-olympic-champion-wrestler-spt-intl/index.html",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1332671738.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2024-06-01T10:54:00Z",
+            "source": {
+                "name": "CNN",
+                "url": "https://www.cnn.com"
+            }
+        },
+        {
+            "title": "US defense secretary says war with China neither imminent nor unavoidable, stressing need for talks",
+            "description": "United States Secretary of Defense Lloyd Austin has told a gathering of top security officials he doesn’t see war with China as imminent, nor unavoidable, despite rapidly escalating tensions in the Asia-Pacific region.",
+            "content": "SINGAPORE (AP) — United States Secretary of Defense Lloyd Austin told a gathering of top security officials Saturday that war with China was neither imminent nor unavoidable, despite rapidly escalating tensions in the Asia-Pacific region, stressing t... [6100 chars]",
+            "url": "https://apnews.com/article/shangrila-dialogue-austin-china-taiwan-philippines-defense-46868bec3799f5043276d9fdeca62a41",
+            "image": "https://dims.apnews.com/dims4/default/d33bf83/2147483647/strip/true/crop/8240x4635+0+429/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F26%2F00%2F123233c8507095f46506e47fcc5f%2F55a319293ba743c58601b84cbd7904f9",
+            "publishedAt": "2024-06-01T10:32:00Z",
+            "source": {
+                "name": "The Associated Press",
+                "url": "https://apnews.com"
+            }
+        },
+        {
+            "title": "Russia hits Ukraine energy infrastructure in large-scale missile, drone attack",
+            "description": "Attack damaged energy infrastructure in five regions, according to Ukraine’s national grid operator.",
+            "content": "\"Russian terrorists do not abandon their intentions to destroy the fuel and energy sector of the state,\" said the air force on its Telegram channel. \"The Air Force and the Defense Forces of Ukraine are doing everything possible to prevent the enemy f... [893 chars]",
+            "url": "https://www.politico.eu/article/war-russia-ukraine-energy-infrastructure-power-national-grid-missile-attack/",
+            "image": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2024/06/01/GettyImages-1244660782.jpg",
+            "publishedAt": "2024-06-01T09:56:00Z",
+            "source": {
+                "name": "POLITICO Europe",
+                "url": "https://www.politico.eu"
+            }
+        },
+        {
+            "title": "Google’s A.I. Search Leaves Publishers Scrambling",
+            "description": "Since Google overhauled its search engine, publishers have tried to assess the danger to their brittle business models while calling for government intervention.",
+            "content": "When Frank Pine searched Google for a link to a news article two months ago, he encountered paragraphs generated by artificial intelligence about the topic at the top of his results. To see what he wanted, he had to scroll past them.\nThat experience ... [797 chars]",
+            "url": "https://www.nytimes.com/2024/06/01/technology/google-ai-search-publishers.html",
+            "image": "https://static01.nyt.com/images/2024/05/29/multimedia/00google-publishers-1-ckft/00google-publishers-1-ckft-facebookJumbo.jpg",
+            "publishedAt": "2024-06-01T09:02:28Z",
+            "source": {
+                "name": "The New York Times",
+                "url": "https://www.nytimes.com"
+            }
+        },
+        {
+            "title": "Boeing Starliner launch: How to watch NASA-crewed mission lift off",
+            "description": "Boeing’s Starliner is ready to attempt a launch of a historic maiden voyage that, if successful, will carry two NASA astronauts to the International Space Station.",
+            "content": "Sign up for CNN’s Wonder Theory science newsletter. Explore the universe with news on fascinating discoveries, scientific advancements and more.\nCNN —\nBoeing’s Starliner is aiming to launch its crewed maiden voyage Saturday, a mission that has been a... [8114 chars]",
+            "url": "https://www.cnn.com/2024/06/01/science/nasa-space-launch-boeing-starliner-scn/index.html",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap24152551217336.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2024-06-01T08:30:00Z",
+            "source": {
+                "name": "CNN",
+                "url": "https://www.cnn.com"
+            }
+        }
+    ]
+}
+
+
+
+- as user they see welcome window if no token in system
+- as user they donot see welcome window if they close the window

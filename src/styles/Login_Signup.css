@@ -1,0 +1,276 @@
+.login_assist {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(-360deg, rgba(8, 8, 8, 0.007), rgba(0, 0, 0, 0.589));
+  z-index: 4;
+  opacity: 0.9;
+  transition: 0.7s;
+}
+
+.form_sign {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(-90deg, rgb(0, 0, 0) 0%, rgb(58, 58, 58) 50%, rgb(71, 71, 71) 100%);
+  border: rgba(63, 63, 63, 0.486) 1px solid;
+  width: 100%;
+  z-index: 5 !important;
+  max-width: 400px;
+  max-height: 650px;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 5px  10px 0px rgba(253, 253, 253, 0.521);
+  border: 1px solid rgba(255, 255, 255, 0.678);
+  padding: 40px 50px 60px;
+  text-align: center;
+  animation-name: slideIn, descend;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translatex(100%);
+  }
+  to {
+    transform: translatex(-50%);
+  }
+}
+
+@keyframes descend {
+  from {
+    transform: translateY(-50vh);
+  }
+  to {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.form_sign h1 {
+  font-size: 27px;
+  margin-bottom: 27px;
+  color: whitesmoke;
+  position: relative;
+}
+
+.form_sign h1::after {
+  content: "";
+  width: 27px;
+  height: 3px;
+  border-radius: 2px;
+  color: white;
+  background-color: white;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.input-field {
+  background: rgba(255, 255, 255, 0.877);
+  margin: 10px 0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  max-height: 40px;
+  overflow: hidden;
+  box-shadow: 5px  5px 0px rgba(253, 253, 253, 0.774);
+}
+
+.form_sign input[type="text"],
+.form_sign input[type="email"],
+.form_sign input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: black;
+  box-shadow: 10px 10px 20px rgb(255, 255, 255);
+  background-color: rgba(5, 5, 5, 0);
+
+}
+
+.form_sign input[type="text"]:focus,
+.form_sign input[type="email"]:focus,
+.form_sign input[type="password"]:focus {
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  color: #FF0000;
+}
+
+.form_sign input[type="text"]::placeholder,
+.form_sign input[type="email"]::placeholder,
+.form_sign input[type="password"]::placeholder {
+  color: rgba(0, 0, 0, 0.445);
+}
+
+.buttons button {
+  flex-basis: 48%;
+  height: 40px;
+  width: 70px;
+  border: 1;
+  outline: 0;
+  cursor: pointer;
+  background-color: rgb(7, 7, 7);
+  color: white;
+  margin: 4% 4%;
+  padding-inline: 5px;
+  border-style: auto;
+  border-radius: 10%;
+  font-family: Tahoma;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.transmit button {
+  flex-basis: 48%;
+  height: 40px;
+  width: 70px;
+  border: 1;
+  outline: 0;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(17, 16, 16, 0.11);
+  margin: 4% 4%;
+  padding-inline: 5px;
+  border-style: auto;
+  border-radius: 10%;
+  font-family: Tahoma;
+}
+
+.transmitCRT button {
+  flex-basis: 48%;
+  height: 40px;
+  width: 70px;
+  border: 1;
+  outline: 0;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(17, 16, 16, 0.11);
+  margin: 0;
+  padding-inline: 5px;
+  border-style: auto;
+  border-radius: 10%;
+  font-family: Tahoma;
+}
+
+.transmitCRT button:hover {
+  background-color: red;
+  color: white;
+}
+
+.transmit button:hover {
+  background-color: red;
+  color: white;
+}
+
+.show {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+  padding-right: 25px;
+}
+
+.show:hover {
+  text-decoration: underline;
+}
+
+
+.close-button {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.87);
+  width: 27px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset_link {
+  color: rgb(249, 236, 236);
+}
+
+#X {
+  color: rgb(253, 3, 3);
+  font-size: large;
+}
+
+#X:hover {
+  color: rgb(255, 0, 0);
+  font-size: x-large;
+}
+
+.close-button:hover {
+  background-color: rgb(255, 255, 255);
+  width: 32px;
+  height: 32px;
+}
+
+/* Responsive Design */
+@media (max-width : 600px) {
+
+  .form_sign {
+    width: 90%;
+    top: 55%;
+    padding: 20px 20px;
+    max-height: 80%;
+    max-width: 70%;
+  }
+
+  .form_sign h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .input-field {
+    align-items: center;
+    max-height: 2rem;
+  }
+
+  .input-field input {
+    width: 100%;
+    max-height: 2rem;
+    padding-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;    
+  }
+
+  .show {
+    padding-right: 10px;
+    align-self: center;
+    font-size: 14px;
+  }
+
+  .buttons button,
+  .transmit button {
+    width: 20;
+    height: 40px;
+    margin: 8px 0;
+  }
+  .transmitCRT button:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  .transmit button:hover {
+    background-color: red;
+    color: white;
+  }
+}

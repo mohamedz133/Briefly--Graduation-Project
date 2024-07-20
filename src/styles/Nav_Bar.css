@@ -1,0 +1,137 @@
+.svg-logo svg{
+    border-radius: 50%;
+    width:3rem;
+    height: auto;
+    margin-left: 3rem;
+    box-shadow: 10px 5px 5px rgb(46, 28, 28);
+}
+
+.svg-logo svg path {
+    fill:rgb(255, 0, 0) ;
+
+
+}
+
+.svg-logo svg circle {
+    fill:rgb(255, 255, 255);
+}
+
+.svg-logo {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:1rem;
+    
+}
+.svg-logo span{
+    font-family: "Arial";
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    font-style: normal;
+}
+
+.nav_bar {
+width: 100vw;
+height:60px;
+font-size: 1rem;
+font-weight: 600;
+color:whitesmoke;
+display:flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 0.1rem solid rgb(82, 80, 80) !important;
+background-color: black;
+position :fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+
+.nav_bar li {
+    display: inline-block;
+    list-style: none;
+}
+
+.createAccount,
+    .Signin{
+
+        background-color: rgba(228, 49, 49, 0.897);
+        border-radius: 40px;
+        margin-right: 2rem;
+    } 
+     .nav_bar li span{
+        display: flex;
+        padding: 8px 8px;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 0.9rem;
+    }
+    
+    .createAccount:hover,
+    .Signin:hover{
+
+        color:white !important;
+        background-color: red;
+        box-shadow: 2px  2px white;
+    }
+
+
+    /* Responsive styles */
+@media (max-width: 768px) {
+
+    
+    .nav_bar {
+      height: 12%;
+      align-items: flex-start;
+    }
+ 
+    .createAccount,
+    .Signin {
+      
+        background-color: rgba(228, 49, 49, 0.897);
+        border-radius: 20px;
+        margin-right: 1rem;
+        margin-top: 5%;
+    }
+
+    .createAccount:hover,
+    .Signin:hover{
+
+        color:white !important;
+        background-color: red;
+        box-shadow: 2px  2px white;
+    }
+
+    .nav_bar li span{
+        
+        padding: 8px 8px;
+        font-size: 0.7rem;
+    }
+    .svg-logo {
+        
+        margin-top: 2%;
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+    .svg-logo svg{
+        width:3rem;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+    .nav_bar ul {
+        flex-direction: row;
+        padding-left: 0px;    }
+
+
+.svg-logo span{
+    font-family: "Arial";
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    font-style: normal;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+    
+  }
+  

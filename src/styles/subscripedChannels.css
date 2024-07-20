@@ -1,0 +1,53 @@
+.subscription_channels_class {
+  margin-top: 20vh;
+}
+
+.no-sub-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: fantasy;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+  
+  .subscription_channels_class {
+    margin-top: 40%;
+    margin-bottom: 10px;
+  }
+
+  .no-sub-txt {
+    font-size: 1.2em;
+    padding: 0 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .subscription_channels_class {
+    margin-top: 45%;
+  }
+
+  .no-sub-txt {
+    font-size: 1em;
+    padding: 0 10px;
+  }
+
+  .channel-title {
+    position:fixed;
+    color: rgb(255, 255, 255);
+    font-size: .7rem;
+    top: 15%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.342);
+    background-color: black;
+    z-index: 5 !important;
+    width: 60vw;
+    text-align: center;
+    padding-top:0px ;
+    box-shadow: 2px 2px 0px rgba(255, 255, 255, 0.288);
+    border-radius: 10%;
+}
+}

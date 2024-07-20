@@ -1,0 +1,104 @@
+/* homepage.css */
+
+.homepage-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #020202;
+  transition: 0.2s;
+  max-width: 1800px;
+}
+
+.homepage-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid #3d3b3b !important;
+  padding: 16px 24px;
+  z-index: 10;
+  background-color: #171619;
+}
+
+.homepage-header-left,
+.homepage-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.homepage-header-left {
+  flex-grow: 1;
+}
+
+.homepage-header-right button {
+  margin-left: 10px;
+}
+
+.svg2-logo {
+  border-radius: 50%;
+  width: 3rem;
+  height: auto;
+  margin-left: 2%;
+  fill: rgb(255, 255, 255);
+}
+
+.profile-btn-homepage {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding-left: 8px; /* Adjusted for smaller screens */
+  border-left: 2px solid #ddd;
+}
+
+.profile-btn-homepage img {
+  width: 28px; /* Adjusted for smaller screens */
+  height: 28px; /* Adjusted for smaller screens */
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.homepage-sidebar {
+  position: fixed;
+  top: 20%;
+  padding: 40px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-sidebar-link,
+.add-feed-link {
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #1f1c2e;
+  margin: 10px 0;
+  transition: 0.2s;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-sidebar-link.active,
+.add-feed-link.active {
+  background-color: red;
+  color: whitesmoke;
+}
+
+.homepage_home_discoverSVG,
+.homepage_home_subscriptionsSVG,
+.homepage_home_addSVG,
+.homepage_home_homeSVG,
+.homepage_home_savedArticlesSVG {
+  height: 100%;
+  width: 100%;
+  padding: 20%;
+}
